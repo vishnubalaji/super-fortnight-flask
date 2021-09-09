@@ -3,3 +3,8 @@ body{
     font-family: sans-serif;
     background-color: white;
 }
+
+table, th, td{
+    border: 1px solid black;
+    
+}
