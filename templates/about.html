@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% if title %}
+    {% block title %}
+    {{ title }}
+    {% endblock %}
+{% else %}
+    No use
+{% endif %}
